@@ -58,6 +58,6 @@ fn main() {
         enigo.mouse_down(MouseButton::Left);
         enigo.mouse_up(MouseButton::Left);
         println!("Left mouse clicked");
-        thread::sleep(duration);
+        sleep(duration);
     }
 }
